@@ -1,0 +1,54 @@
+#nav-bar ul{
+	display:flex;
+}
+
+#nav-bar a{
+	color:#000;
+	text-decoration: none;
+}
+
+#nav-bar ul li{
+	list-style: none;
+	padding-left: 2rem;
+}
+
+#nav-bar{
+	max-width: 350px;
+    margin: auto;
+}
+
+video{
+	width: 100% !important;
+    height: auto !important;
+}
+
+.container{
+   padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    background: #fff3e3;
+    border: 1px solid #ffcb85;
+}
+
+#contact input{
+	height: 25px;
+	font-size: 1.1rem;
+	padding:.5rem;
+	border:1px solid #000;
+}
+
+#contact #submitBtn{
+	padding:2rem;
+	padding-top:.7rem;
+}
+
+body{
+	font-size:1.2rem;
+}
+
+@media(max-width:700px){
+   body{
+   	font-size:1rem;
+   }
+}
